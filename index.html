@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+
+
+<body>
+    </head>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__head" id="head">
+
+                    <div class="header__head__logo">
+                        <a href="#header" class="header__head__logo-link">
+                            <img src="./images/logo.png" alt="Logotype" class="header__head__logo-img">
+                        </a>
+
+                    </div>
+                    <a class="header__burger " onclick="burgerActive()">
+                        <span></span>
+                    </a>
+                    <div class="header__inner">
+                        <nav class="header__menu">
+                            <ul class="header__menu__list">
+                                <li class="header__menu__list-item"><a href="#portfolio"
+                                        class="header__menu__list-link">Портфолио</a>
+                                </li>
+                                <li class="header__menu__list-item"><a href="#about" class="header__menu__list-link">О
+                                        компании</a>
+                                </li>
+                                <li class="header__menu__list-item"><a href="#"
+                                        class="header__menu__list-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="#feedback" class="header__inner-btn">Оставить заявку</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="header__annotation">
+            <p class="header__annotation-text">
+                Маркетинговое агентство.
+                С нами вы растете как на дрожжах
+            </p>
+        </div>
+        <div class="header__social">
+            <a href="#" class="header__social-whatsapp">whatsapp</a>
+            <a href="#" class="header__social-telegram">telegram</a>
+
+        </div>
+        <div class="header__arrow">
+            <a href="#portfolio" class="header__arrow-link"><img src="./images/header_arrow.png" alt=""
+                    class="header__arrow-img"></a>
+        </div>
+        </div>
+    </header>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio__head">
+                <h2 class="portfolio__head-title title">
+                    Портфолио
+                </h2>
+                <span class="portfolio__head-link" onclick="PortfolioList()">смотреть все</span>
+            </div>
+
+            <div class="portfolio__inner">
+                <div class="portfolio__inner__item">
+                    <div class="portfolio__inner__item__bg">
+                        <img src="./images/portfolio1.png" alt="" class="portfolio__inner__item__bg-img">
+                        <span class="portfolio__inner__item__bg-tag">
+                            МАРКЕТИНГ
+                        </span>
+                    </div>
+                    <h4 class="portfolio__inner__item-title">
+                        «Натали» — Ивановский трикотаж оптом
+                    </h4>
+                    <p class="portfolio__inner__item-description">
+                        Редизайн сайта, поддержка сайта
+                    </p>
+                </div>
+
+                <div class="portfolio__inner__item">
+                    <div class="portfolio__inner__item__bg">
+                        <img src="./images/portfolio2.png" alt="" class="portfolio__inner__item__bg-img">
+                        <span class="portfolio__inner__item__bg-tag">
+                            ВЕБ РАЗРАБОТКА
+                        </span>
+                    </div>
+                    <h4 class="portfolio__inner__item-title">
+                        Podium — эротический массаж
+                    </h4>
+                    <p class="portfolio__inner__item-description">
+                        Разработка, редизайн
+                    </p>
+                </div>
+
+                <div class="portfolio__inner__item">
+                    <div class="portfolio__inner__item__bg">
+                        <img src="./images/portfolio3.png" alt="" class="portfolio__inner__item__bg-img">
+                        <span class="portfolio__inner__item__bg-tag">
+                            ВЕДЕНИЕ РЕКЛАМНОЙ КОМПАНИИ
+                        </span>
+                    </div>
+                    <h4 class="portfolio__inner__item-title">
+                        Аудит отдела маркетинга и продаж для Название бренда <br> длинное название...
+                    </h4>
+                    <p class="portfolio__inner__item-description">
+                        Аудит, маркетинг сюда кратко теги
+                    </p>
+                </div>
+
+                <div class="portfolio__inner__item">
+                    <div class="portfolio__inner__item__bg">
+                        <img src="./images/portfolio4.png" alt="" class="portfolio__inner__item__bg-img">
+                        <span class="portfolio__inner__item__bg-tag">
+                            ВЕДЕНИЕ ГРУПП В СОЦ СЕТЯХ
+                        </span>
+                    </div>
+                    <h4 class="portfolio__inner__item-title">
+                        Аудит отдела маркетинга и продаж для Название бренда
+                    </h4>
+                    <p class="portfolio__inner__item-description">
+                        Аудит, маркетинг сюда кратко теги
+                    </p>
+                </div>
+
+                <div class="portfolio__inner__item">
+                    <div class="portfolio__inner__item__bg">
+                        <img src="./images/portfolio5.png" alt="" class="portfolio__inner__item__bg-img">
+                        <span class="portfolio__inner__item__bg-tag">
+                            ОПТИМИЗАЦИЯ SEO САЙТА
+                        </span>
+                    </div>
+                    <h4 class="portfolio__inner__item-title">
+                        Аудит отдела маркетинга и продаж для Название бренда
+                    </h4>
+                    <p class="portfolio__inner__item-description">
+                        Аудит, маркетинг сюда кратко теги
+                    </p>
+                </div>
+
+                <div class="portfolio__inner__item">
+                    <div class="portfolio__inner__item__bg">
+                        <img src="./images/portfolio6.png" alt="" class="portfolio__inner__item__bg-img">
+                        <span class="portfolio__inner__item__bg-tag">
+                            СОЗДАНИЕ РЕКЛАМНОЙ КОМПАНИИ
+                        </span>
+                    </div>
+                    <h4 class="portfolio__inner__item-title">
+                        Аудит отдела маркетинга и продаж для Название бренда
+                    </h4>
+                    <p class="portfolio__inner__item-description">
+                        Аудит, маркетинг сюда кратко теги
+                    </p>
+                </div>
+            </div>
+
+            <button class="portfolio-btn" onclick="PortfolioList()">Все кейсы</button>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="about__title title">О компании</h2>
+
+            <ul class="about__list">
+                <li class="about__list-item"><span class="about__list_red-text">5</span>отделов</li>
+                <li class="about__list-item"><span class="about__list_red-text">5</span>маркетологов</li>
+                <li class="about__list-item"><span class="about__list_red-text">3</span>дизайнера</li>
+                <li class="about__list-item"><span class="about__list_red-text">3</span>копирайтера</li>
+                <li class="about__list-item"><span class="about__list_red-text">7</span>разработчиков</li>
+            </ul>
+
+            <div class="about__information">
+                <div class="about__information__left">
+                    <p class="about__information-text">
+                        Мы — команда специалистов с опытом, энтузиазмом и лёгким недосыпом. Маркетинговое агентство
+                        «Дрожжи»
+                        было основано
+                        в 2015 году, как компания, где можно получить комплексное интернет- и oффлайн-продвижение. На
+                        сегодняшний день мы не зависим ни от ниши, ни от географии, ни от специфики продукта.
+                        В портфолио компании сотни успешных кейсов, способных помочь вам в реализации своей идеи.
+                    </p>
+                    <div class="about__information__progress">
+                        <div class="about__information__progress__project progress">
+                            <h2 class="about__information__progress-title">
+                                1000+
+                            </h2>
+                            <p class="about__information__progress-text">
+                                реализованных проектов
+                            </p>
+                        </div>
+                        <div class="about__information__progress__client progress">
+                            <h2 class="about__information__progress-title">
+                                92
+                            </h2>
+                            <p class="about__information__progress-text">
+                                клиента доверили нам свои проекты
+                            </p>
+                        </div>
+                        <div class="about__information__progress__years progress">
+                            <h2 class="about__information__progress-title">
+                                5+
+                            </h2>
+                            <p class="about__information__progress-text">
+                                лет успешной работы
+                            </p>
+                        </div>
+                    </div>
+                    <button class="about__information-btn">подробнее</button>
+                </div>
+
+                <div class="about__information__right ">
+                    <a href="#popup" class="about__information-popup">
+                        <img src="./images/about.png" alt="img" class="about__information-img" id="information-img">
+                    </a>
+                    <p class="about__information-description">
+                        Команда агентства «Дрожжи»
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+        <div class="container">
+            <h2 class="feedback__title title">
+                Оставьте заявку
+            </h2>
+            <div class="feedback__inner">
+                <div class="feedback__inner__information">
+                    <img src="./images/feedback.png" alt="img" class="feedback__inner__information-img">
+                    <h4 class="feedback__inner__information-name feedback__inner_title">
+                        Юлия Дижа
+                    </h4>
+                    <p class="feedback__inner__information-description">
+                        Поможет запустить ваш проект
+                    </p>
+                </div>
+
+                <div class="feedback__inner__files">
+                    <h4 class="feedback__inner__files-title feedback__inner_title">
+                        Скачать брифинги на:
+                    </h4>
+                    <a href="" class="feedback__inner__files-link">разработку логотипа <img
+                            src="./images/feedback_arrow.png" alt="" class="feedback__inner__files-arrow"></a>
+                    <a href="" class="feedback__inner__files-link">разработку сайта <img
+                            src="./images/feedback_arrow.png" alt="" class="feedback__inner__files-arrow"></a>
+                    <a href="" class="feedback__inner__files-link">разработку лендинга <img
+                            src="./images/feedback_arrow.png" alt="" class="feedback__inner__files-arrow"></a>
+                </div>
+
+                <form action="" class="feedback__inner__form">
+                    <input type="text" placeholder="Ваше имя*" class="feedback__inner__form-name ">
+                    <input type="text" placeholder="Телефон или мессенджер *" class="feedback__inner__form-contacts">
+                    <textarea name="info" cols="30" rows="10" placeholder="Краткое описание задачи *"
+                        class="feedback__inner__form-information "></textarea>
+                    <input type="submit" value="Отправить" class="feedback__inner__form-submit">
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner__item">
+                    <p class="footer__inner__item-text">
+                        2015-2021 © Дрожжи™
+                    </p>
+                </div>
+                <div class="footer__inner__item">
+                    <p class="footer__inner__item-text">
+                        ООО «РВБ-Маркетинг»
+                    </p>
+                </div>
+                <div class="footer__inner__item">
+                    <p class="footer__inner__item-text">
+                        Политика конфиденциальности
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer__logo">
+                <a href="#header" class="footer__logo-link">
+                    <img src="./images/footer_logo.png" alt="" class="footer__logo-img">
+                </a>
+
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <div id="popup" class="popup">
+        <a href="#head" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#head" class="popup__close"><img src="./images/close.png" alt="" class="popup__close-img"></a>
+                <img src="./images/about.png" alt="" class="popup__img">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>

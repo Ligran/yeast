@@ -1,0 +1,68 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #212529;
+}
+
+.container {
+  max-width: 1367px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 130%;
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 288px;
+  }
+}
+/*# sourceMappingURL=global.css.map */
